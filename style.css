@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.338);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 40px;
+
+    margin: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .searchBar{
+    margin-right: 50px;
+}
+
+nav .searchBar input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+nav .searchBar button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
